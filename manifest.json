@@ -1,0 +1,11 @@
+{
+  "name":"Moridim/Nitrobit",
+  "version":"1",
+  "manifest_version":2,
+  "content_scripts": [
+    {
+      "matches": ["http://www.moridim.tv/*", "https://www.moridim.tv/*", "http://www.nitrobit.net/*", "https://www.nitrobit.net/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
